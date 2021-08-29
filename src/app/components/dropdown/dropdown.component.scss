@@ -1,0 +1,29 @@
+.dropdown {
+    position: relative;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: var(--main-div-element);
+    @media (min-width: 376px) {
+        margin-top: 0;
+    }
+    &-label {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-options {
+        border-radius: 0.25rem;
+        position: absolute;
+        top: 110%;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        background-color: hsla(229, 61%, 64%, 1);
+        list-style: none;
+        padding-left: 1rem;
+        li {
+            padding: 0.5rem;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-div-element);
+    padding: 2rem 1rem;
+    h2 {
+        font-size: 25px;
+    }
+    span {
+        font-size: 15px;
+    }
+    div {
+        font-weight: 600;
+    }
+    @media (min-width: 376px) {
+        padding: 1.75rem 5rem;
+    }
+}
